@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>string字符串</title>
+    <script>
+        // 加了引号都是字符串类型
+        var str = '我喜欢吃糖醋排骨';
+        console.log(str);
+        var str1 = "我喜欢吃'糖醋'排骨";
+        console.log(str1);
+        var str2 = '我喜欢吃"糖醋"排骨';
+        console.log(str2);
+
+        // 字符串转义符都是\开头 但是这些转义字符都写进引号里
+        var str = '我喜欢吃\n糖醋排骨';
+        console.log(str);
+        
+        //检测获取字符串的长度 length
+        var str = 'my name is liangjie';
+        console.log(str.length);
+
+        //字符串拼接 +  数值相加，字符相连
+        console.log('沙漠' + 12);//沙漠12
+        console.log('梁'+'帅帅');//梁帅帅
+        console.log('12'+ 12);//1212
+        var age = 22;
+        console.log('小梁永远：' + age + '岁');
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
